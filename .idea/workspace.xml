@@ -4,15 +4,124 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11032b42-5e88-4c34-8067-6685f94cfec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thinkneuroai-rd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CsvReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="11032b42-5e88-4c34-8067-6685f94cfec2" name="Changes" comment="Week 2 deliverable - Template DashBoard(still in progress)">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CsvReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/CsvReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/actions/build_component_wheels/action.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/actions/pack_streamlit_component_library/action.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/actions/run_e2e/action.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/replay-files/template-reactless.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/replay-files/template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/.github/workflows/ci.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/cookiecutter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/hooks/post_gen_project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/e2e/e2e_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/e2e/test_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/public/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/src/MyComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-react/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/public/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/cookiecutter/{{ cookiecutter.package_name }}/{{ cookiecutter.import_name }}/frontend-reactless/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/public/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/src/CustomDataframe.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/custom_dataframe/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/e2e/e2e_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/e2e/test_custom_dataframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/CustomDataframe/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/e2e/e2e_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/e2e/test_material_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/src/MaterialLogin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/src/css-modules.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/src/style.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/material_login/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/MaterialLogin/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/e2e/e2e_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/e2e/test_radio_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/public/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/src/RadioButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/radio_button/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/examples/RadioButton/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/e2e/e2e_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/e2e/test_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/public/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/src/MyComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/my_component/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-template/template/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Kits.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Kits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Students.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Students.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Teachers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Teachers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +138,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;erik-mauricio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/erik-mauricio/thinkneuroai-rd.git&quot;,
+    &quot;accountId&quot;: &quot;466f6008-85b5-4e8b-bf85-c6fab8c39b1c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2zNXSulg7H6I2zy8aLOgenCakCD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,9 +173,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "/Users/erikmauricio/PycharmProjects/thinkneuroai-rd/component-template/template/my_component/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,10 +198,37 @@
       <option name="presentableId" value="Default" />
       <updated>1751572507279</updated>
       <workItem from="1751572508294" duration="5564000" />
+      <workItem from="1751583836100" duration="10723000" />
+      <workItem from="1751954743662" duration="7408000" />
+      <workItem from="1752260212585" duration="16306000" />
     </task>
+    <task id="LOCAL-00001" summary="Week 2 deliverable - Template DashBoard(still in progress)">
+      <option name="closed" value="true" />
+      <created>1751654908849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751654908849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Week 2 deliverable - Template DashBoard(still in progress)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 deliverable - Template DashBoard(still in progress)" />
   </component>
 </project>
